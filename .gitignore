@@ -1,0 +1,170 @@
+# Byte-compiled / optimized / DLL files
+
+**pycache**/
+_.py[cod]
+_$py.class
+
+# C extensions
+
+\*.so
+
+# Distribution / packaging
+
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+_.egg-info/
+.installed.cfg
+_.egg
+
+# PyInstaller
+
+# Usually these files are written by a python script from template
+
+# before PyInstaller builds the exe, so as to inject date/other info.
+
+_.manifest
+_.spec
+
+# Installer logs
+
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage._
+.cache
+nosetests.xml
+coverage.xml
+_.cover
+\*.py,cover
+.hypothesis/
+.pytest_cache/
+test-results/
+
+# Translations
+
+_.mo
+_.pot
+
+# Django stuff:
+
+\*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask / FastAPI / Streamlit
+
+instance/
+.webassets-cache
+.streamlit/
+
+# Scrapy stuff:
+
+.scrapy
+
+# Sphinx documentation
+
+docs/\_build/
+doc/\_build/
+
+# Jupyter Notebook checkpoints
+
+.ipynb_checkpoints
+
+# pyenv / pipenv / poetry / virtualenv
+
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+poetry.lock
+Pipfile.lock
+
+# mypy / pyright / pylint / coverage
+
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.pylint.d/
+.coverage
+
+# IDEs and editors
+
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+.ropeproject
+**workspace**/
+_.sublime-project
+_.sublime-workspace
+
+# OS / file system
+
+.DS*Store
+Thumbs.db
+ehthumbs.db
+Icon?
+*.swp
+_.swo
+_.bak
+\_.tmp
+
+# Logs / outputs / temp files
+
+logs/
+_.log
+_.out
+_.tmp
+_.temp
+
+# Azure AI, credentials, environment files
+
+.env
+.env.\*
+_.env
+azure_config.json
+azure_credentials.json
+_.azureml/
+mlruns/
+
+# (optional) remove if you intentionally commit config files
+
+credentials.json
+
+# Project-specific artifacts
+
+asset/images/
+outputs/
+results/
+data/
+**temp**/
+.cache/
+
+# add your model or checkpoint folder if generated dynamically
+
+checkpoints/
+models/
