@@ -6,7 +6,7 @@ Service used: azure computer vision. That is part of ai vision
 from dotenv import load_dotenv
 from azure.ai.vision.imageanalysis.models import VisualFeatures
 import json
-from vision_ai.client import image_analysis_client
+from vision_ai.image.client import image_analysis_client
 
 load_dotenv()
 

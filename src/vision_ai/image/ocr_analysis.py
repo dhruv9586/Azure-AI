@@ -5,7 +5,8 @@ Service used: azure computer vision. That is part of ai vision
 
 # import json
 from azure.ai.vision.imageanalysis.models import VisualFeatures
-from vision_ai.client import image_analysis_client
+from vision_ai.image.client import image_analysis_client
+
 
 with open("asset/images/text.png", "rb") as image:
     image_details = image.read()

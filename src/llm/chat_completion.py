@@ -1,7 +1,7 @@
 import os
 import base64
 from dotenv import load_dotenv
-from llm import chat_llm
+from model_client import chat_llm
 
 load_dotenv()
 

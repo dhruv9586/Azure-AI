@@ -1,19 +1,12 @@
 import os
-from openai import AzureOpenAI
 from dotenv import load_dotenv
+from model_client import stream_llm
 
 load_dotenv()
 
 print("Welcome to stream completion module")
 
-
-model = AzureOpenAI(
-    api_version=os.getenv("AZURE_OPENAI_STREAM_API_VERSION", ""),
-    api_key=os.getenv("AZURE_OPENAI_API_KEY", ""),
-    azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT", ""),
-)
-
-response = model.responses.create(
+response = stream_llm.responses.create(
     input=[
         {
             "role": "system",
