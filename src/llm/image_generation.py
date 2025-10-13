@@ -9,7 +9,7 @@ print("Welcome to image generation module")
 
 response = image_llm.images.generate(
     model=os.getenv("AZURE_OPENAI_IMAGE_DEPLOYMENT_NAME", ""),
-    prompt="Generate a real cat",
+    prompt="Generate a dog eating carrot",
     response_format="url",
 )
 
@@ -21,6 +21,6 @@ if data and isinstance(data, list):
     first = data[0]
     image_url = first.get("url") or ""
     image_data = requests.get(image_url).content
-    with open("asset/images/cat3.png", "wb") as file:
+    with open("asset/images/dog_query.png", "wb") as file:
         file.write(image_data)
 print("Image generated finished")
