@@ -12,7 +12,7 @@ speech_config.speech_synthesis_voice_name = "en-US-SteffanMultilingualNeural"
 
 input_txt = "Hello there! How are you? Myself Dhruv, i am passionate software engineer working at Presidio. I provide AI services in many domains such as E-Commerce, Education, Cloud Automation. You can explore my website to see offered services and contact details"
 
-output_file = "asset/audio/speech01.wav"
+output_file = "outputs/speech01.wav"
 
 audio_config = speechsdk.audio.AudioConfig(filename=output_file)
 
