@@ -12,3 +12,7 @@ result = response.result()
 # ✅ Display extracted fields
 for idx, para in enumerate(result.paragraphs):
     print(f"\n--- para #{idx+1} --- {para.content}")
+
+# Extract style like is it hand written or not
+for style in result.styles:
+    print(f"Is Hand Written: {style.is_handwritten}")
