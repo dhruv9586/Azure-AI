@@ -20,6 +20,7 @@ dependencies = [
     "azure-ai-translation-text (==1.0.0b1)",
     "azure-cognitiveservices-speech (>=1.46.0,<2.0.0)",
     "azure-ai-language-conversations (>=1.1.0,<2.0.0)",
+    "azure-ai-documentintelligence (>=1.0.2,<2.0.0)",
 ]
 
 

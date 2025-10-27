@@ -9,7 +9,7 @@ print("Welcome to image generation module")
 
 response = image_llm.images.generate(
     model=os.getenv("AZURE_OPENAI_IMAGE_DEPLOYMENT_NAME", ""),
-    prompt="Generate a dog eating carrot",
+    prompt="Generate a hand written sample note",
     response_format="url",
 )
 
