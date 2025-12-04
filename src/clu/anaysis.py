@@ -23,6 +23,7 @@ deployment_name = os.getenv("AZURE_CONVERSATIONAL_LANGUAGE_DEPLOYMENT_NAME", "")
 
 response = client.analyze_conversation(
     task={
+        "kind": "Conversation",
         "analysisInput": {
             "conversationItem": {
                 "id": "1",
@@ -36,7 +37,6 @@ response = client.analyze_conversation(
             "deploymentName": deployment_name,
             "verbose": True,
         },
-        "kind": "Conversation",
     }
 )
 
